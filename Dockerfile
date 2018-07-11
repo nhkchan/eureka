@@ -2,7 +2,8 @@
 #
 # Copyright (c) 2015 Oracle and/or its affiliates. All rights reserved.
 #
-FROM oracle/serverjre:8
+#FROM oracle/serverjre:8
+FROM openshift/redhat-openjdk18-openshift:1.3
 MAINTAINER Kenneth Cootauco <kenneth.cootauco2@loblaw.ca>
 
 COPY SubscriptionsAppSB-Eureka-0.0.1.jar /tmp/app.jar
